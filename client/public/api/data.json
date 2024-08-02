@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "purchaseOrderNumber": "29645-CD",
+    "unit": "T4",
+    "emailDate": "2024-07-19",
+    "teams": 12,
+    "teamDetail": [
+      {
+        "teamName": "arkansas",
+        "bodyColor": "black",
+        "artworkColors": ["499", "234"],
+        "actualQuantity": 234,
+        "quantityForPrint": 244,
+        "quantityPrinted": 244,
+        "strikeOff": true,
+        "ppSample": true
+      }
+    ],
+    "items": "front",
+    "strikeOff": true,
+    "ppSample": true,
+    "requiredQuantity": 345,
+    "purchaseOrderQuantity": 500,
+    "quantityForPrint": 450,
+    "quantityPrinted": 78,
+    "clientPurchaseOrderNumber": "1163/45",
+    "shipmentDate": "2024-6-15",
+    "quatityForBilling": 450,
+    "rate": 45,
+    "invoiceNumber": 10001,
+    "lastModified": null
+  },
+  {
+    "id": 2,
+    "purchaseOrderNumber": "29656-CD",
+    "unit": "T4",
+    "emailDate": "2024-07-19",
+    "teams": 233,
+    "teamDetail": [
+      {
+        "teamName": "arkansas",
+        "bodyColor": "black",
+        "artworkColors": ["499", "234"],
+        "actualQuantity": 234,
+        "quantityForPrint": 244,
+        "quantityPrinted": 244,
+        "strikeOff": true,
+        "ppSample": true
+      }
+    ],
+    "items": "front",
+    "strikeOff": false,
+    "ppSample": false,
+    "requiredQuantity": 345,
+    "purchaseOrderQuantity": 500,
+    "quantityForPrint": 450,
+    "quantityPrinted": 78,
+    "clientPurchaseOrderNumber": "1163/45",
+    "shipmentDate": "2024-6-15",
+    "quatityForBilling": 450,
+    "rate": 45,
+    "invoiceNumber": 10001,
+    "lastModified": null
+  },
+  {
+    "id": 3,
+    "purchaseOrderNumber": "29645-aB",
+    "unit": "Garment",
+    "emailDate": "2024-07-19",
+    "teams": 43,
+    "teamDetail": [
+      {
+        "teamName": "arkansas",
+        "bodyColor": "black",
+        "artworkColors": ["499", "234"],
+        "actualQuantity": 234,
+        "quantityForPrint": 244,
+        "quantityPrinted": 244,
+        "strikeOff": true,
+        "ppSample": true
+      }
+    ],
+    "items": "front",
+    "strikeOff": false,
+    "ppSample": false,
+    "requiredQuantity": 345,
+    "purchaseOrderQuantity": 500,
+    "quantityForPrint": 450,
+    "quantityPrinted": 65,
+    "clientPurchaseOrderNumber": "1163/45",
+    "shipmentDate": "2024-6-15",
+    "quatityForBilling": 450,
+    "rate": 45,
+    "invoiceNumber": 10001,
+    "lastModified": null
+  },
+  {
+    "id": 4,
+    "purchaseOrderNumber": "296adaa",
+    "unit": "T4",
+    "emailDate": "2024-07-19",
+    "teams": 3,
+    "teamDetail": [
+      {
+        "teamName": "arkansas",
+        "bodyColor": "black",
+        "artworkColors": ["499", "234"],
+        "actualQuantity": 234,
+        "quantityForPrint": 244,
+        "quantityPrinted": 244,
+        "strikeOff": true,
+        "ppSample": true
+      }
+    ],
+    "items": "front",
+    "strikeOff": true,
+    "ppSample": true,
+    "requiredQuantity": 345,
+    "purchaseOrderQuantity": 500,
+    "quantityForPrint": 450,
+    "quantityPrinted": 54,
+    "clientPurchaseOrderNumber": "1163/45",
+    "shipmentDate": "2024-6-15",
+    "quatityForBilling": 450,
+    "rate": 45,
+    "invoiceNumber": 10001,
+    "lastModified": null
+  }
+]

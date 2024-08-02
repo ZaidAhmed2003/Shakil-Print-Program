@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "purchaseOrderNumber": "29645-CD",
+    "unit": "T4",
+    "emailDate": { "year": 2024, "month": 5, "day": 23 },
+    "teams": [
+      {
+        "id": 1,
+        "teamName": "arkansas",
+        "bodyColor": "black",
+        "artworkColors": ["499", "234"],
+        "actualQuantity": 234,
+        "quantityForPrint": 244,
+        "quantityPrinted": 244,
+        "strikeOff": true,
+        "ppSample": true
+      }
+    ],
+    "items": [
+      { "item": "Front", "value": 1 },
+      { "item": "Back", "value": 2 }
+    ],
+    "strikeOff": true,
+    "ppSample": true,
+    "requiredQuantity": 345,
+    "purchaseOrderQuantity": 500,
+    "quantityForPrint": 450,
+    "quantityPrinted": 15450,
+    "clientPurchaseOrderNumber": "1163/GMT/PRF/45",
+    "shipmentDate": "2024-6-15",
+    "quatityForBilling": 450,
+    "rate": 45,
+    "invoiceNumber": null,
+    "lastModified": null
+  }
+]
