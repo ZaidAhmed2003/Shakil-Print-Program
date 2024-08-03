@@ -13,7 +13,7 @@ const Topnav = ({ title }) => {
   };
 
   return (
-    <div className="flex justify-between items-center px-5 py-3">
+    <div className="flex items-center justify-between px-5 py-3">
       <h2 className="text-2xl font-semibold">{title}</h2>
       <Button size="small" handleOnClick={handleLogout}>
         Logout

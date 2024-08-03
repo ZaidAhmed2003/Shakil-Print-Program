@@ -121,7 +121,7 @@ const PurchaseOrders = () => {
                     <tr key={order._id} className="text-center">
                       <td className="border-b px-4 py-4">{index + 1}</td>
                       <td className="border-b px-4 py-4">{order.unit}</td>
-                      <td className="border-b px-4 py-4"></td>
+                      <td className="border-b px-4 py-4">{order.emailDate}</td>
                       <td
                         className="cursor-pointer border-b px-4 py-4"
                         onClick={() =>
