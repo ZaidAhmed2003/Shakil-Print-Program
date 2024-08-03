@@ -6,23 +6,17 @@ require("dotenv").config();
 
 const app = express();
 
-// CORS configuration
-const corsOptions = {
-  origin: "http://localhost:5173", // Your frontend URL
-  methods: "GET,POST,PUT,DELETE",
-  allowedHeaders: "Content-Type",
-};
+// OFFICIAL MIDDLEWARES
 
+// Middleware for parsing JSON
+app.use(express.json());
 // Use CORS middleware
-app.use(cors(corsOptions));
+app.use(cors());
 
 // Connect to MongoDB
 connectDB();
 
-// Middleware for parsing JSON
-app.use(express.json());
-
-// Routes
+//   Routes
 const purchaseOrdersRouter = require("./routes/purchaseOrders");
 app.use("/shakilprint/purchaseorders", purchaseOrdersRouter);
 
