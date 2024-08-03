@@ -1,7 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/db");
 const cors = require("cors");
-const cookieParser = require("cookie-parser");
+
 require("dotenv").config();
 
 const app = express();
@@ -21,7 +21,6 @@ connectDB();
 
 // Middleware for parsing JSON
 app.use(express.json());
-app.use(cookieParser());
 
 // Routes
 const purchaseOrdersRouter = require("./routes/purchaseOrders");
